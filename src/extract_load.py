@@ -57,6 +57,19 @@ if __name__ == "__main__":
 
 """
 
+-- remover readme
+git rm README.md
+
+-- criar readme
+echo "# Titulo do Projeto" > README.md
+
+-- descrição do readme
+echo "Descricao do projeto..." >> README.md
+
+git commit -m "Refeito o arquivo README.md"
+
+git push -u origin main 
+
 -- Mensagem no readme, não precisa = echo "# Dw-Zero" >> README.md
 git init
 git add README.md
@@ -64,6 +77,13 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/arexdevson/Dw-Zero.git
 git push -u origin main
+
+----- outro exemplo de gitada
+
+git add .
+git commit -m "feat: adicionar feature de extract e load - task: xxxx"
+git push
+
 
 limpartela do terminal
 clear
