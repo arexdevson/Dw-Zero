@@ -1,0 +1,10 @@
+date,symbol,action,quantity
+2025-10-20,CL=F,sell,40
+2025-10-17,GC=F,buy,35
+2025-10-16,CL=F,sell,10
+2025-10-21,CL=F,buy,5
+2025-10-16,GC=F,sell,20
+2025-10-17,CL=F,buy,33
+2025-10-17,SI=F,sell,20
+2025-10-20,CL=F,buy,10
+2025-10-21,SI=F,sell,7

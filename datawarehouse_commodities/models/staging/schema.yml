@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_commodities
+    description: "Tabela de staging para dados de commodities"
+    columns:
+      - name: data
+        description: "Data da observação, no formato YYYY-MM-DD"
+      - name: valor_fechamento
+        description: "Preço do fechamento da commodity com API"
+      - name: simbolo
+        description: "Ticker da commodity"
+  - name: stg_mov_commodities
+    description: "Tabela de staging para dados de movimentação (compras e vendas)"
+    columns:
+      - name: data
+        description: "Data da transação, no formato YYYY-MM-DD"
+      - name: quantidade
+        description: "quantidade de commodities vendidos"
+      - name: simbolo
+        description: "Ticker da commodity"           
+      - name: acao
+        description: "Tipo de transacao"
